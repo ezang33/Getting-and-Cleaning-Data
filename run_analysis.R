@@ -112,8 +112,8 @@ names(combined_data) <- c("Subject", "Activity", col_values)
 avg_comb_data <- combined_data %>% group_by(Subject,Activity) %>% 
     summarise_all(mean)
 
-
-
+# Output the Tidy Data Set
+avg_comb_data
 
 
 
