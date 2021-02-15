@@ -1,5 +1,5 @@
 
-# README.md
+# README
 
 ## General Information and Background
 
